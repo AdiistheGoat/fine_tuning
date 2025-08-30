@@ -22,7 +22,7 @@ The notebook covers:
 - **Tokenization & Padding**:  
   - Tokenized input text with Hugging Face’s T5 tokenizer.  
   - Applied **attention masks** to prevent tokens other than those associated with the labels to be used in the loss function 
-  - Used padding masks (`create_padding_mask`) for sequence alignment.  
+  - Used padding tokens for sequence alignment.  
 - **LoRA Fine-Tuning**:  
   - Implemented custom `LoRALayer` and `LinearWithLoRA` modules.  
   - Replaced linear layers in FLAN-T5 with LoRA-enabled layers (`replace_linear_with_lora`).  
@@ -38,6 +38,7 @@ The notebook covers:
 ## Results
 
 The notebook demonstrates how **LoRA drastically reduces the number of trainable parameters** compared to full fine-tuning, while still adapting FLAN-T5 effectively.  
-It also shows how **padding and attention masks** help stabilize training with variable-length inputs.
+It also shows how **padding and attention masks** help stabilize training with variable-length inputs and for classification respectively.
+
 
 
