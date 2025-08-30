@@ -39,3 +39,4 @@ The notebook covers:
 
 The notebook demonstrates how **LoRA drastically reduces the number of trainable parameters** compared to full fine-tuning, while still adapting FLAN-T5 effectively.  
 It also shows how **padding and attention masks** help stabilize training with variable-length inputs.
+
