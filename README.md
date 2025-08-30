@@ -3,16 +3,6 @@
 This repository contains a Jupyter Notebook for fine-tuning the **FLAN-T5 Large** model using **LoRA (Low-Rank Adaptation)**.  
 The workflow demonstrates efficient fine-tuning with attention masks and padding to handle variable-length text data.
 
-## Requirements
-
-- Python 3.x
-- Jupyter Notebook
-- Libraries:
-  - transformers
-  - torch
-  - scikit-learn
-  - pandas
-  - numpy
 
 ## Description
 
@@ -39,6 +29,7 @@ The notebook covers:
 
 The notebook demonstrates how **LoRA drastically reduces the number of trainable parameters** compared to full fine-tuning, while still adapting FLAN-T5 effectively.  
 It also shows how **padding and attention masks** help stabilize training with variable-length inputs and for classification respectively.
+
 
 
 
